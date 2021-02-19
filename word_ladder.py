@@ -74,7 +74,7 @@ def verify_word_ladder(ladder):
         return False
     balanced = True
     for i in range(0, len(ladder) - 1):
-        if _adjacent(ladder[i], ladder[i+1]):
+        if _adjacent(ladder[i], ladder[i + 1]):
             balanced = True
         else:
             return False
